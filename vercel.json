@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm install --timeout=600000",
+  "framework": "vite",
+  "outputDirectory": "dist"
+}
