@@ -7,13 +7,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "vercel-build": "npm run build",
+    "vercel-build": "chmod +x node_modules/.bin/vite && chmod +x node_modules/.bin/vite-node && vite build",
     "type-check": "vue-tsc",
     "preview": "vite preview"
   },
   "engines": {
-    "node": "18.x || 20.x",
-    "npm": "9.x"
+    "node": "20.x",
+    "npm": "10.x"
   },
   "dependencies": {
     "vue": "^3.4.0",
